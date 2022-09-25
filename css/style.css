@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  Helvetica;
+}
+
+.container {
+  margin: 2rem auto;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header h2 {
+  padding: 1rem 0;
+  color: rgb(0, 0, 255);
+  font-size: 1.3rem;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container form input,
+button {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  margin: 2px 0;
+  border: 1px solid #ddd;
+  background-color: rgb(248, 248, 248);
+  border-radius: 4px;
+  outline: none;
+}
+
+button {
+  background-color: blue;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 900;
+  display: block;
+}
+
+.forgot-password {
+  font-size: 0.9rem;
+  padding: 0.7rem 0;
+  text-decoration: none;
+}
+
+.creat-account-btn {
+  background-color: rgb(39, 179, 20);
+  width: 50%;
+}
+
+.center-line {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-line span {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.center-line p {
+  font-size: 0.8rem;
+  color: #333;
+  padding: 0 0.8rem;
+}
+
+footer {
+  margin-top: 7rem;
+  width: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+footer ul {
+    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+}
+
+footer ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.cross {
+  padding: 0;
+  font-size: 0.9rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-weight: 800;
+  padding: 1px 3px;
+}
+
+footer p {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  color: #333;
+}
